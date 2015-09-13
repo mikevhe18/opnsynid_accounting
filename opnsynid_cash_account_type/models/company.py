@@ -23,7 +23,8 @@ class Company(models.Model):
     """Company"""
     _inherit = "res.company"
 
-    cash_account_type_ids = fields.Many2many(string='Cash Account Type',
+    cash_account_type_ids = fields.Many2many(
+        string='Cash Account Type',
         comodel_name='account.account.type',
         rel='rel_company_2_acc_type',
         id1='company_id',
