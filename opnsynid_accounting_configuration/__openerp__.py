@@ -21,22 +21,15 @@
 ##############################################################################
 {
     'name': 'Company accounting extra configuration',
-    'summary' : 'Companies extra configuration',
+    'summary': 'Companies extra configuration',
     'category': 'Hidden',
     'version': '1.0',
     'author': 'OpenSynergy Indonesia',
     'website': 'https://opensynergy-indonesia.com',
     'description': """
-
     """,
     'depends': ['account'],
-    'demo': [],
-    'data': [   
-                'view/res_company_view.xml',
-               ],
+    'data': ['view/res_company_view.xml',],
     'installable': True,
-    'images': [],
 }
-
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
-

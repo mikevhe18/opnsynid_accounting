@@ -18,7 +18,6 @@
 
 from openerp import fields, models
 
-
 class Company(models.Model):
     """Company"""
     _inherit = "res.company"
