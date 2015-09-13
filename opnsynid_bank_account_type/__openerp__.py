@@ -29,7 +29,7 @@
     'description': """
     """,
     'depends': ['opnsynid_accounting_configuration'],
-    'data':['view/res_company_view.xml',],
+    'data':['view/res_company_view.xml'],
     'installable': True,
 }
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

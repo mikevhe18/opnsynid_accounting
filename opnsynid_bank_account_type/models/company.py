@@ -18,6 +18,7 @@
 
 from openerp import fields, models
 
+
 class Company(models.Model):
     """Company"""
     _inherit = "res.company"
@@ -27,4 +28,4 @@ class Company(models.Model):
         rel='rel_company_2_bank_acc_type',
         id1='company_id',
         id2='bank_acc_type_id',
-        )
+    )

@@ -28,4 +28,4 @@ class Company(models.Model):
         rel='rel_company_2_acc_type',
         id1='company_id',
         id2='account_type_id',
-        )
+    )
