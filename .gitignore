@@ -49,8 +49,11 @@ coverage.xml
 .ropeproject
 
 # Sphinx documentation
-connector/doc/_build/
+docs/_build/
 
 # Backup files
 *~
 *.swp
+
+# OSX Files
+*.DS_Store
