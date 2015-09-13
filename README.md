@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/open-synergy/${REPO_NAME}.svg?branch=${BRANCH_NAME})](https://travis-ci.org/open-synergy/${REPO_NAME})
+[![Build Status](https://travis-ci.org/open-synergy/opnsynid_accounting.svg?branch=8.0)](https://travis-ci.org/open-synergy/opnsynid_accounting)
 
 # ${REPO_NAME_VERBOSE}
 
