@@ -7,9 +7,8 @@
     'summary': 'Companies extra configuration',
     'category': 'Hidden',
     'author': 'OpenSynergy Indonesia',
+    "license": "AGPL-3",
     'website': 'https://opensynergy-indonesia.com',
-    'description': """
-    """,
     'depends': [
         'account'
     ],
