@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<openerp>
-    <data>
-
-        <record id="form_resCompany_cashAccountType" model="ir.ui.view">
-            <field name="name">Addition cash account type</field>
-            <field name="model">res.company</field>
-            <field name="inherit_id" ref="opnsynid_accounting_configuration.form_resCompany_accountingConfiguration"/>
-            <field name="arch" type="xml">
-                <data>
-                    <xpath expr="//group[@name='group_acc_config']" position="inside">
-                        <field name="cash_account_type_ids"
-                            widget="many2many_tags"
-                            />
-                    </xpath>
-                </data>
-            </field>
-        </record>
-
-    </data>
-</openerp>
+<odoo>
+    <record id="form_resCompany_cashAccountType" model="ir.ui.view">
+        <field name="name">Addition cash account type</field>
+        <field name="model">res.company</field>
+        <field name="inherit_id" ref="opnsynid_accounting_configuration.form_resCompany_accountingConfiguration"/>
+        <field name="arch" type="xml">
+            <data>
+                <xpath expr="//group[@name='group_acc_config']" position="inside">
+                    <field name="cash_account_type_ids"
+                        widget="many2many_tags"
+                        />
+                </xpath>
+            </data>
+        </field>
+    </record>
+</odoo>
