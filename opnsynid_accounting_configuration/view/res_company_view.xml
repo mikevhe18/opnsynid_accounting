@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<openerp>
-    <data>
-
-        <record id="form_resCompany_accountingConfiguration" model="ir.ui.view">
-            <field name="name">Add accounting configuration page</field>
-            <field name="model">res.company</field>
-            <field name="inherit_id" ref="base.view_company_form"/>
-            <field name="arch" type="xml">
-                <data>
-                    <xpath expr="//notebook" position="inside">
-                        <page string="Acc. Configuration">
-                            <group name="group_acc_config"/>
-                        </page>
-                    </xpath>
-                </data>
-            </field>
-        </record>
-
-    </data>
-</openerp>
+<odoo>
+    <record id="form_resCompany_accountingConfiguration" model="ir.ui.view">
+        <field name="name">Add accounting configuration page</field>
+        <field name="model">res.company</field>
+        <field name="inherit_id" ref="base.view_company_form"/>
+        <field name="arch" type="xml">
+            <data>
+                <xpath expr="//notebook" position="inside">
+                    <page string="Acc. Configuration">
+                        <group name="group_acc_config"/>
+                    </page>
+                </xpath>
+            </data>
+        </field>
+    </record>
+</odoo>
